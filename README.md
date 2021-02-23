@@ -2,6 +2,8 @@
 
 iOS app that provides 4 different calculators to aid in the creation of subwoofer boxes. <br />
 
+![](subwooferApp.gif)
+
 ### Included Calculators
 
 - Round Port Length
