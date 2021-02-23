@@ -28,7 +28,7 @@ Grossly simplying, the relative volume of a box and size of an included round or
 - Area = Cross Sectional area of port (Circle vs. Rectangle)
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}Port&space;Length&space;=&space;\frac{Area(1.84*10^8)}{1728(BoxVolume))(\frac{Frequency}{0.159})^2}-0.823\sqrt{Area}" title="\color{cyan}Port Length = \frac{Area(1.84*10^8)}{1728(BoxVolume))(\frac{Frequency}{0.159})^2}-0.823\sqrt{Area}" />
+  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}Port&space;Length(in.)&space;=&space;\frac{Area(1.84*10^8)}{1728(BoxVolume))(\frac{Frequency}{0.159})^2}-0.823\sqrt{Area}" title="\color{cyan}Port Length(in.) = \frac{Area(1.84*10^8)}{1728(BoxVolume))(\frac{Frequency}{0.159})^2}-0.823\sqrt{Area}" />
 </p>
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?\color{cyan}A&space;(Round)=&space;\pi(\frac{Diameter}{2})^2" title="\color{cyan}A (Round)= \pi(\frac{Diameter}{2})^2" />
@@ -45,3 +45,14 @@ Grossly simplying, the relative volume of a box and size of an included round or
 
 #### Calculating Volume of A Right-Angle Trapezoidal Prism
 
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}Volume(Rect)&space;=&space;\frac{(Width-(2*Thickness))*(Height2-(2*Thickness))*(Depth-(2*Thickness))}{1728}" title="\color{cyan}Volume(Rect) = \frac{(Width-(2*Thickness))*(Height2-(2*Thickness))*(Depth-(2*Thickness))}{1728}" />
+</p>
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}Volume(Triangle)&space;=&space;(0.5*(Depth-(2*Thickness)*((Height1-(2*Thickness))-(Height2-(2*Thickness))))&space;*&space;(Width-(2*Thickness))" title="\color{cyan}Volume(Triangle) = (0.5*(Depth-(2*Thickness)*((Height1-(2*Thickness))-(Height2-(2*Thickness)))) * (Width-(2*Thickness))" />
+</p>
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}Volume(ft.^3)&space;=&space;\frac{V(Rect)&plus;V(Triangle)}{1728}" title="\color{cyan}Volume(ft.^3) = \frac{V(Rect)+V(Triangle)}{1728}" />
+</p>
