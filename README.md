@@ -25,6 +25,8 @@ Grossly simplying, the relative volume of a box and size of an included round or
 
 #### Calculating Port Length
 
+- Area = Cross Sectional area of port (Circle vs. Rectangle)
+
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?\color{cyan}Port&space;Length&space;=&space;\frac{Area(1.84*10^8)}{1728(BoxVolume))(\frac{Frequency}{0.159})^2}-0.823\sqrt{Area}" title="\color{cyan}Port Length = \frac{Area(1.84*10^8)}{1728(BoxVolume))(\frac{Frequency}{0.159})^2}-0.823\sqrt{Area}" />
 </p>
@@ -33,12 +35,6 @@ Grossly simplying, the relative volume of a box and size of an included round or
 </p>
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?\color{cyan}A&space;(Slot)=&space;PortWidth&space;*&space;PortHeight" title="\color{cyan}A (Slot)= PortWidth * PortHeight" />
-</p>
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}V&space;=&space;BoxVolume" title="\color{cyan}V = BoxVolume" />
-</p>
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}F&space;=&space;Frequency" title="\color{cyan}F = Frequency" />
 </p>
 
 #### Calculating Volume of A Rectangular Prism
