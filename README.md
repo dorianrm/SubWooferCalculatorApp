@@ -7,7 +7,7 @@ iOS app that provides 4 different calculators to aid in the creation of subwoofe
 - Round Port Length
 - Slot Port Length
 - Rectangular Prism Volume
-- Trapezoidal Prism Volume (Wedge)
+- Right-Angle Trapezoidal Prism Volume (Wedge)
 
 ## Background
 
@@ -21,13 +21,9 @@ Subwoofers generate frequencies through the oscilating movement of its cone. In 
 
 Grossly simplying, the relative volume of a box and size of an included round or slot port affects the range of frequencies that can escape the box. Therefore controlling these dimensions, the box will output deisred frequencies much more clearly compared to other undesired ranges. Overall, different designs of boxes result in different listening experiences. 
 
-## Port Info
-
 ## The Math Behind the Calculators
 
 #### Calculating Port Length
-
-To determine the port length required to output a desired frequency, the formula below is used.
 
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?\color{cyan}Port&space;Length&space;=&space;\frac{A(1.84*10^8)}{1728(V)(\frac{F}{0.159})^2}-0.823\sqrt{A}" title="\color{cyan}Port Length = \frac{A(1.84*10^8)}{1728(V)(\frac{F}{0.159})^2}-0.823\sqrt{A}" />
@@ -44,4 +40,12 @@ To determine the port length required to output a desired frequency, the formula
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?\color{cyan}F&space;=&space;Frequency" title="\color{cyan}F = Frequency" />
 </p>
+
+#### Calculating Volume of A Rectangular Prism
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}Volume(ft.^3)&space;=&space;\frac{(Width-(2*Thickness))*(Height-(2*Thickness))*(Depth-(2*Thickness))}{1728}" title="\color{cyan}Volume(ft.^3) = \frac{(Width-(2*Thickness))*(Height-(2*Thickness))*(Depth-(2*Thickness))}{1728}" />
+</p>
+
+#### Calculating Volume of A Right-Angle Trapezoidal Prism
 
