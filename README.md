@@ -2,7 +2,9 @@
 
 iOS app that provides 4 different calculators to aid in the creation of subwoofer boxes. <br />
 
-![](subwooferApp.gif)
+<p align="center">
+  <img src="subwooferApp.gif" width="200" class="center" />
+</p>
 
 ### Included Calculators
 
