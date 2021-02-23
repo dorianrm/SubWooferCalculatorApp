@@ -20,3 +20,28 @@ Subwoofers are loudspeakers designed to produce low bass frequencies. In order t
 Subwoofers generate frequencies through the oscilating movement of its cone. In doing so, varying pressures are generated on the front and back of the cone. Although they are the same sounds, their relative wavelengths are offset. Therefore if they are heard together, their wavelengths cancel eachother out resulting in no sound heard. It is for this reason where subwoofer boxes come in.
 
 Grossly simplying, the relative volume of a box and size of an included round or slot port affects the range of frequencies that can escape the box. Therefore controlling these dimensions, the box will output deisred frequencies much more clearly compared to other undesired ranges. Overall, different designs of boxes result in different listening experiences. 
+
+## Port Info
+
+## The Math Behind the Calculators
+
+#### Calculating Port Length
+
+To determine the port length required to output a desired frequency, the formula below is used.
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}Port&space;Length&space;=&space;\frac{A(1.84*10^8)}{1728(V)(\frac{F}{0.159})^2}-0.823\sqrt{A}" title="\color{cyan}Port Length = \frac{A(1.84*10^8)}{1728(V)(\frac{F}{0.159})^2}-0.823\sqrt{A}" />
+</p>
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}A&space;(Round)=&space;\pi(\frac{Diameter}{2})^2" title="\color{cyan}A (Round)= \pi(\frac{Diameter}{2})^2" />
+</p>
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}A&space;(Slot)=&space;PortWidth&space;*&space;PortHeight" title="\color{cyan}A (Slot)= PortWidth * PortHeight" />
+</p>
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}V&space;=&space;BoxVolume" title="\color{cyan}V = BoxVolume" />
+</p>
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}F&space;=&space;Frequency" title="\color{cyan}F = Frequency" />
+</p>
+
