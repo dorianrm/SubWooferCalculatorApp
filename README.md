@@ -26,7 +26,7 @@ Grossly simplying, the relative volume of a box and size of an included round or
 #### Calculating Port Length
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}Port&space;Length&space;=&space;\frac{A(1.84*10^8)}{1728(V)(\frac{F}{0.159})^2}-0.823\sqrt{A}" title="\color{cyan}Port Length = \frac{A(1.84*10^8)}{1728(V)(\frac{F}{0.159})^2}-0.823\sqrt{A}" />
+  <img src="https://latex.codecogs.com/svg.latex?\color{cyan}Port&space;Length&space;=&space;\frac{Area(1.84*10^8)}{1728(BoxVolume))(\frac{Frequency}{0.159})^2}-0.823\sqrt{Area}" title="\color{cyan}Port Length = \frac{Area(1.84*10^8)}{1728(BoxVolume))(\frac{Frequency}{0.159})^2}-0.823\sqrt{Area}" />
 </p>
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?\color{cyan}A&space;(Round)=&space;\pi(\frac{Diameter}{2})^2" title="\color{cyan}A (Round)= \pi(\frac{Diameter}{2})^2" />
